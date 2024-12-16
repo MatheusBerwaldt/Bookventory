@@ -1,0 +1,19 @@
+{
+  "name": "bookventory",
+  "version": "1.0.0",
+  "description": "Gerenciador de biblioteca usando Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^33.2.1"
+  },
+  "dependencies": {
+    "bookventory": "file:",
+    "sqlite3": "^5.1.7"
+  }
+}

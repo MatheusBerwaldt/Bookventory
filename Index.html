@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biblioteca Manager</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    button, input {
+      margin: 10px 0;
+      padding: 10px;
+      font-size: 16px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #f4f4f4;
+    }
+  </style>
+</head>
+<body>
+  <h1>Gerenciador de Biblioteca</h1>
+
+  <form id="form-adicionar-livro">
+    <input type="text" id="titulo" placeholder="Título" required />
+    <input type="text" id="autor" placeholder="Autor" required />
+    <input type="text" id="genero" placeholder="Genero" required />
+    <input type="text" id="anoPublicacao" placeholder="Ano de Publicação" required />
+    <button type="submit">Adicionar Livro</button>
+  </form>
+
+  <button id="listar-livros">Listar Livros</button>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Titulo</th>
+        <th>Autor</th>
+        <th>Genero</th>
+        <th>Ano de Publicação</th>
+      </tr>
+    </thead>
+    <tbody id="tabela-livros"></tbody>
+  </table>
+
+  <script src="renderer.js"></script>
+</body>
+</html>
