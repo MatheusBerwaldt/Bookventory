@@ -4,9 +4,9 @@ Bookventory é um aplicativo desktop para gerenciar bibliotecas pessoais ou pequ
 
 ## **Funcionalidades**
 
-- **Adicionar Livros**: Adicione informações como título, autor, gênero e ano de publicação.
+- **Adicionar Livros**: Adicione livros com informações como título, autor, gênero e ano de publicação.
 - **Listar Livros**: Visualize todos os livros armazenados em uma tabela.
-- **Persistência de Dados**: Os dados são salvos localmente em um banco de dados SQLite, garantindo que as informações sejam mantidas após reiniciar o aplicativo.
+- **Persistência de Dados**: Os dados são salvos localmente em um banco de dados SQLite.
 - **Interface Intuitiva**: Interface simples e fácil de usar.
 
 ---
